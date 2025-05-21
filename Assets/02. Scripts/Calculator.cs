@@ -9,10 +9,10 @@ public class Calculator : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int addresult = Add();
-        int minusresult = Minus();
+        int addResult = Add();
+        int minusResult = Minus();
 
-        Debug.Log($"渦и 高 : {addresult} / 賓 高 : {minusresult}");
+        Debug.Log($"渦и 高 : {addResult} / 賓 高 : {minusResult}");
     }
 
     int Add()
